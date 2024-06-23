@@ -48,5 +48,5 @@ Program dodaje kolumnę `Highlight`, która określa, które produkty mają być
 - W przypadku dużej liczby produktów proces może potrwać dłużej.
 - Sprawdź, czy używasz odpowiedniej wersji WebDrivera zgodnej z Twoją przeglądarką.
 - W przypadku błędów związanych z Selenium, upewnij się, że przeglądarka i WebDriver są poprawnie skonfigurowane.
-- Xpath można łatwo pozyskać przy pomocy czatu GPT, wklejając kawałek kodu html strony zawierający cenę wybranego produktu, najlepiej takiego, który znajduje się na promocji. Plik main.py zawiera przykładowe Xpathy, Twoje mogą wyglądać zupełnie inaczej.
+- Xpath można łatwo pozyskać przy pomocy czatu GPT, wklejając kawałek kodu html strony zawierający cenę wybranego produktu (najlepiej takiego, który znajduje się na promocji). Plik main.py zawiera przykładowe Xpathy, Twoje mogą wyglądać zupełnie inaczej.
 
