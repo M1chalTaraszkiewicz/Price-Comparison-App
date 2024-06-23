@@ -15,7 +15,7 @@ Ten projekt to program stworzony w Pythonie, który automatycznie porównuje cen
 
 Po uruchomieniu skryptu, zobaczysz listę plików `.xlsx` w bieżącym katalogu. Wybierz plik, z którego chcesz odczytać dane, wpisując odpowiedni numer:
 
-![Wybór Pliku](screenshots/wybor_pliku.jpg)
+![Wybór Pliku](screenshots/wybor_pliku.png)
 
 ### Krok 2: Zaczytanie Linków
 
