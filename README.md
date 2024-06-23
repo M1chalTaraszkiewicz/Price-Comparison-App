@@ -19,7 +19,9 @@ Po uruchomieniu skryptu, zobaczysz listę plików `.xlsx` w bieżącym katalogu.
 
 ### Krok 2: Zaczytanie Linków
 
-Program odczytuje linki do produktów z wybranego pliku Excel. Plik powinien zawierać kolumny z nazwą produktu, linkami do produktów w różnych sklepach oraz opcjonalnie kolumnę z kodami promocyjnymi.
+Program odczytuje linki do produktów z wybranego pliku Excel. Plik powinien zawierać kolumnę z nazwami produktów nazwaną "Product Name", kolumny z nazwami sklepów i kolumnę "Promo Code". Oto przykład jak powinno to wyglądać:
+
+![Baza Linków](screenshots/baza_linkow.png)
 
 ### Krok 3: Pobieranie Ceny
 
@@ -41,8 +43,10 @@ Program dodaje kolumnę `Highlight`, która określa, które produkty mają być
 
 ### Ostrzeżenia i Wskazówki
 
-- Upewnij się, że plik Excel zawiera poprawne linki do produktów oraz odpowiednie XPathy do cen.
+- Upewnij się, że plik Excel zawiera poprawne nazwy kolumn i linki do produktów.
+- Nazwy kolumn w pliku Excel możesz dowolnie zmieniać, ale pamiętaj o zmianie ich nazw również w kodzie.
 - W przypadku dużej liczby produktów proces może potrwać dłużej.
 - Sprawdź, czy używasz odpowiedniej wersji WebDrivera zgodnej z Twoją przeglądarką.
 - W przypadku błędów związanych z Selenium, upewnij się, że przeglądarka i WebDriver są poprawnie skonfigurowane.
+- Xpath można łatwo pozyskać przy pomocy czatu GPT, wklejając kawałek kodu html strony zawierający cenę wybranego produktu, najlepiej takiego, który znajduje się na promocji.
 
