@@ -15,7 +15,7 @@ This project is a Python program that automatically compares product prices in y
 
 After running the script, you will see a list of `.xlsx` files in the current directory. Choose the file from which you want to read data by entering the corresponding number:
 
-![File Selection](screenshots/wybor_pliku.png)
+![File Selection](screenshots/file_choose.png)
 
 ### Step 2: Reading Links
 
