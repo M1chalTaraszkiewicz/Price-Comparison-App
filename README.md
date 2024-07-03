@@ -1,4 +1,4 @@
-# My Project
+# Price Comparison App
 
 ## Select your language / Wybierz język
 
