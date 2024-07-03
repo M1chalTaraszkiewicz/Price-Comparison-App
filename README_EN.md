@@ -33,7 +33,7 @@ The program compares the prices retrieved from competing websites with the price
 
 ### Step 5: Generating Results
 
-The comparison results are saved to a new Excel file in the `Wyniki` folder. The results file contains product prices from all stores and prices including the promotional code in your store. Products with prices lower or equal to those in your store are appropriately highlighted.
+The comparison results are saved to a new Excel file in the `Results` folder. The results file contains product prices from all stores and prices including the promotional code in your store. Products with prices lower or equal to those in your store are appropriately highlighted.
 
 ![Results](screenshots/wyniki.png)
 
